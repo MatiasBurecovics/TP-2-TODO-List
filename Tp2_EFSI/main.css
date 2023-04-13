@@ -1,0 +1,132 @@
+
+body{
+  background:linear-gradient(90deg ,#ec2c2c,#d29e62,#e9993d );
+  font-family: Poppins, sans-serif
+}
+
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+#check {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+#check li {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#check li span {
+  flex: 1;
+}
+
+#check li button {
+  margin-left: 10px;
+}
+
+#tareaMasRapida {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+/* Estilos para los botones */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+/* Estilos para el botón Crear */
+.btn.primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background-color: #0069d9;
+}
+
+.btn.primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+/* Estilos para el botón Editar */
+.btn-info {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.btn-info:hover {
+  background-color: #117a8b;
+}
+
+.btn-info:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
+}
+
+/* Estilos para el botón Eliminar */
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #ac2925;
+}
+
+.btn-danger:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+}

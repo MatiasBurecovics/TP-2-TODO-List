@@ -50,7 +50,7 @@ button:hover {
   font-size: 16px;
   padding: 10px;
   border-radius: 5px;
-  border: 2px solid #ccc;
+  border: 2px solid #0062cc;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
@@ -101,7 +101,7 @@ button:hover {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
-/* Estilos para el botón Editar */
+
 .btn-info {
   background-color: #17a2b8;
   color: #fff;
@@ -116,7 +116,7 @@ button:hover {
   box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
 }
 
-/* Estilos para el botón Eliminar */
+
 .btn-danger {
   background-color: #dc3545;
   color: #fff;

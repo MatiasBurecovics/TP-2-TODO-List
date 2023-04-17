@@ -1,6 +1,5 @@
 let arr = []
 
-
 const eventhandler = (event) => {
 
     event.preventDefault()
@@ -25,7 +24,7 @@ const tacharCheckbox =(index)=>{
   } else {
     arr[index].tiempoCompletado = null
   }
-  document.getElementById('check').innerHTML = '';
+  document.getElementById('check').innerHTML = ''
   arr.forEach(mostrarArr)
 }
 
@@ -50,18 +49,18 @@ const tareaMasRapida=() =>
   } else {
       document.getElementById("tareaMasRapida").innerHTML = "No hay tareas completadas"
   }
-  document.getElementById("tareaMasRapida").classList.remove("hidden");
-document.getElementById("btnTareaMasRapida").classList.remove("hidden");
+  document.getElementById("tareaMasRapida").classList.remove("hidden")
+document.getElementById("btnTareaMasRapida").classList.remove("hidden")
 }
 
 const validar = (inputItem) => {
-    let item = document.getElementById("item");
+    let item = document.getElementById("item")
     if (inputItem.length == 0 || inputItem.trim() == "") {
-      item.style.borderColor = "red";
-      return false;
+      item.style.borderColor = "red"
+      return false
     } else {
-      item.style.borderColor = "";
-      return true;
+      item.style.borderColor = ""
+      return true
     }
 
 }
@@ -110,13 +109,10 @@ const crearTarea = (inputNombre) => {
 
 
 }
-let borrarTarea = (index) => {
-    console.log(index)
-    arr.splice(index, 1)
-
-    document.getElementById('check').innerHTML = ''
-    arr.forEach(mostrarArr)
-
+const borrarTarea = (index) => {
+  arr.splice(index, 1)
+  document.getElementById('check').innerHTML = ''
+  arr.forEach(mostrarArr)
 }
 
 const editarTarea = (index) => {
